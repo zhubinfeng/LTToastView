@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LTToastView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Like this you can get LTToastView."
   s.description  = "This is a LTToastView for Third Login easy to user"
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files = 'LTToastView/*.{h,m}', "LTToastView/LTPulicClass/*.{h,m}"
-  s.resource  = "LTToastView/IconResource.bundle"
+  s.resource  = "LTToastView/Resources.bundle"
 
   s.framework  = "Foundation", "UIKit"
 
